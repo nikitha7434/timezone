@@ -1,0 +1,70 @@
+#body-I{
+    
+    justify-content: center;
+}
+h1{
+    margin: 20px;
+}
+
+#sec-I{
+    width: 80%;
+ margin: 0px 10%;
+    border: 1px solid black;
+}
+#sec-I  p{
+    font-size: xx-large;
+    display:flex ;
+    justify-self: start;
+    padding: 10px 20px;
+ }
+ #subdiv-I{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#sec-II{
+background-color: black;
+width: 100%;
+    margin: 20px;
+   
+}
+
+#entreaddress{
+    color: white;
+   padding: 30px;
+   text-align: start;
+}
+input{
+    width: 90%;
+    background-color: black;
+   margin: 30px;
+   padding: 10px;
+   color: white;
+}
+button{
+    margin: 20px;
+    padding:  10px 60px;
+    background-color: white;
+    font-size: medium;
+
+    
+}
+#reslut{
+    width: 80%;
+    border: 1px solid white;
+    margin: 10%;
+}
+#sub-II p{
+   
+    font-size: xx-large;
+    display:flex ;
+    justify-self: start;
+    padding: 10px 20px;
+    color: #FFFF;
+}
+#subdiv-I1{
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
