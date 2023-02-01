@@ -87,7 +87,19 @@ async function responcedata1(usera){
         const responce = await fetch(url);
        console.log(url);
         const data =await responce.json();
-showdata1(data);
+        if(data.features.length==0){
+            let res = document.getElementById("er");
+            res.textContent =' Time zone could not be found.'
+           
+            
+        }
+        else{
+            let re = document.getElementById("res");
+            re.style.display='block';
+
+            showdata1(data);   
+        }
+
         
     }
 

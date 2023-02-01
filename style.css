@@ -49,10 +49,17 @@ button{
 
     
 }
+#res{
+    display: none;
+}
+#er{
+    color: #FFFFF;
+}
 #reslut{
     width: 80%;
     border: 1px solid white;
     margin: 10%;
+    
 }
 #sub-II p{
    
