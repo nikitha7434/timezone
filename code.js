@@ -90,10 +90,14 @@ async function responcedata1(usera){
         if(data.features.length==0){
             let res = document.getElementById("er");
             res.textContent =' Time zone could not be found.'
+            let re = document.getElementById("res");
+            re.style.display='none';
            
             
         }
         else{
+            let res = document.getElementById("er");
+            res.textContent =' ';
             let re = document.getElementById("res");
             re.style.display='block';
 
